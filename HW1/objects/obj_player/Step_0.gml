@@ -31,4 +31,5 @@ if (right) {
 
 if (fire) {
 	var inst = instance_create_layer(x, y, "Instances", obj_xwing_bullet);
+	audio_play_sound(snd_xwing_bullet1, 1, false);
 }
